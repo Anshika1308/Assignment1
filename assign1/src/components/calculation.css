@@ -1,0 +1,51 @@
+body{
+    background-color: aliceblue;
+}
+
+.container{
+
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+h1{
+    color: rgb(16, 131, 240);
+}
+
+label{
+
+    color: rgb(16, 131, 240);
+}
+
+
+
+input{
+    margin-top: 10px;
+}
+
+.buttons{
+     
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(16, 131, 240);
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(16, 131, 240);
+    cursor: pointer;
+}
+
+
+.result{
+
+    color: rgb(16, 131, 240);
+    font-size: 1.5rem;
+}
